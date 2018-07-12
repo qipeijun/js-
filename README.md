@@ -27,7 +27,9 @@ new Countdown(document.getElementById('countdown1'),{
 });
 ```
 format:可以自定义输出格式  
+
 lastTime: 倒计时截止的时间
+
 callback:倒计时结束回调
 
 ### License
