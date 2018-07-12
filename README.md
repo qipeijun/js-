@@ -12,9 +12,7 @@ new Countdown(el, options);
 {
  format: "hh小时mm分ss秒" | "hh:mm:ss", 
  lastTime: "2016-04-20 16:00:00" | 1492675200000,
- callback: function () {
-		console.log('我的倒计时结束啦');
-	}
+ callback: ()=> {console.log('我的倒计时结束啦');}
 }
 ```
 ### 例子
@@ -25,9 +23,7 @@ new Countdown(el, options);
 new Countdown(document.getElementById('countdown1'),{
    format: "hh小时mm分ss秒",
    lastTime: "2017-04-20 16:00:00",
-   callback: function () {
-		console.log('我的倒计时结束啦');
-	}
+   callback:  ()=> {console.log('我的倒计时结束啦');}
 });
 ```
 format:可以自定义输出格式  
